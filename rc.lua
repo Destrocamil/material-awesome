@@ -2,6 +2,8 @@ local gears = require('gears')
 local awful = require('awful')
 local wibox = require("wibox")
 require('awful.autofocus')
+require("awful.remote")
+require("screenful")
 local beautiful = require('beautiful')
 
 -- Theme

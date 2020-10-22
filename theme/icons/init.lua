@@ -2,13 +2,11 @@ local dir = os.getenv('HOME') .. '/.config/awesome/theme/icons'
 
 return {
   --tags
-  chrome = dir .. '/brave.svg',
-  code = dir .. '/code-braces.svg',
-  social = dir .. '/forum.svg',
-  folder = dir .. '/folder.svg',
-  music = dir .. '/music.svg',
-  game = dir .. '/google-controller.svg',
-  lab = dir .. '/flask.svg',
+  chrome = dir .. '/krasty_firefoxColored.svg',
+  code = dir .. '/krasty_code.svg',
+  social = dir .. '/krasty_messaging.svg',
+  folder = dir .. '/krasty_folder.svg',
+  random = dir .. '/krasty_random.svg', 
   --others
   menu = dir .. '/menu.svg',
   close = dir .. '/close.svg',

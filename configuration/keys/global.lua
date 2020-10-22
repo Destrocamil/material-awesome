@@ -387,15 +387,6 @@ local globalKeys =
       awful.util.spawn(apps.default.files)
     end,
     {description = 'filebrowser', group = 'hotkeys'}
-  ),
-  -- Emoji Picker
-  awful.key(
-    {modkey},
-    'a',
-    function()
-      awful.util.spawn_with_shell('ibus emoji')
-    end,
-    {description = 'Open the ibus emoji picker to copy an emoji to your clipboard', group = 'hotkeys'}
   )
 )
 

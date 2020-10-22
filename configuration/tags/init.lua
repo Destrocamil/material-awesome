@@ -23,27 +23,15 @@ local tags = {
     screen = 1
   },
   {
-    icon = icons.game,
-    type = 'game',
-    defaultApp = apps.default.game,
-    screen = 1
-  },
-  {
     icon = icons.folder,
     type = 'files',
     defaultApp = apps.default.files,
     screen = 1
   },
   {
-    icon = icons.music,
-    type = 'music',
-    defaultApp = apps.default.music,
-    screen = 1
-  },
-  {
-    icon = icons.lab,
-    type = 'any',
-    defaultApp = apps.default.rofi,
+    icon = icons.random,
+    type = 'random',
+    -- defaultApp = apps.default.files,
     screen = 1
   }
 }
